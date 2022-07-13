@@ -1,0 +1,12 @@
+
+<div class="container my-5">
+        {{#each beers as |beer|}}
+            {{> card
+                    id = id
+                    image_url = image_url
+                    name = name
+                    tagline = tagline
+                    description = description
+            }}
+        {{/each}}
+</div>
