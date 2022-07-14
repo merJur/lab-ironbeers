@@ -1,12 +1,3 @@
-
-<div class="container my-5">
-        {{#each beer }}
-            {{> card
-                    id = id
-                    image_url = image_url
-                    name = name
-                    tagline = tagline
-                    description = description
-            }}
-        {{/each}}
+<div class="container">
+    {{>card beer=beer }}
 </div>
